@@ -277,3 +277,49 @@
   color: #555;
   margin-top: 10px;
 }
+
+
+
+
+.form-section {
+      background: linear-gradient(to bottom, #0b6623, #145a32);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+ .form-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+    }
+ .form-box h2 {
+      margin-bottom: 20px;
+    }
+.form-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 6px;
+    }
+ .form-box button {
+      width: 100%;
+      padding: 15px;
+      background: #f1c40f;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer{
+      background-color: #14532D;
+      color: white;
+      text-align: center;
+      padding: 10px;
+
+    }
