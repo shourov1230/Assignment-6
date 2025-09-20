@@ -237,5 +237,43 @@
     }
 
 
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+ 
 
-    
+.impact-section {
+  background: #eaf2f8;
+  padding: 50px;
+  text-align: center;
+}
+.impact-section h2 {
+  margin-bottom: 30px;
+}
+.impact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.impact-card {
+  background:#fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+}
+.impact-card h3 {
+  font-size: 22px;
+  color: #2c3e50;
+}
+
+.impact-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
