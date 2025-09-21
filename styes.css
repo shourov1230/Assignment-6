@@ -9,7 +9,7 @@
       align-items: center;
       justify-content: space-between;
       background-color: #0b6b2d;
-      border-bottom: 1px solid rgba(0,0,0,0.04);
+      border-bottom: 1px solid white
       z-index: 40;
     }
 .brand {
@@ -30,73 +30,39 @@
 
   
 }
-/* Hero Section */
-    .hero {
-      position: relative;
-      background: #f4fdf4;
+
+
+
+ 
+
     
-      text-align: center;
-      overflow: hidden;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      background-color: #CFF0DC;
-      width: 1999px;
-      height: 380px;
-    }
- .hero h1 {
-      font-size: 36px;
-      color: #2d572c;
-      margin: 0 0 15px;
-    }
- .hero p {
-      color: #555;
-      font-size: 16px;
-      max-width: 500px;
-      margin: 0 auto 20px;
-    }
- .hero button {
-      background: #f9a825;
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  justify-content: center;
+  background-color: #CFF0DC;
+}
+
+.start-search {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.paly {
+  background: #f9a825;
       color: #fff;
-      padding: 12px 25px;
+      padding: 15px 25px;
       border: none;
       border-radius: 25px;
       font-size: 16px;
       cursor: pointer;
       transition: 0.3s;
-    }
- .hero button:hover {
-      background: #e68a00;
-    }
-
-    /* Leaf Images */
-    .leaf {
-      position: absolute;
-      top: 0;
-      width: 200px;
-      opacity: 0.8;
-    }
-
-
-.hero-content {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
-    .leaf.left {
-      left: -50px;
-      top: -20px;
-      transform: rotate(-15deg);
-    }
-    .leaf.right {
-      right: -50px;
-      top: -20px;
-      transform: rotate(15deg);
-    }
-
-    /* --- Nav links --- */
-
-
 
 
 
